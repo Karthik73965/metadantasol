@@ -40,7 +40,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4 description">
                                 You have data but are unsure of its potential. This stage is all about uncovering the value and purpose of your business data.
                             </p>
-                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white  py-2 px-2 w-full hover:bg-[#026cbd] heading ">
+                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white  py-2 px-2 w-full hover:bg-[#026cbd] heading h-16 ">
                                 Explore the Possibilities
                             </button>
                         </div>
@@ -79,7 +79,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4 description">
                                 Enthusiastic about the prospects of data, you're ready to delve deep for impactful insights. You're set to fully utilize your data's capabilities
                             </p>
-                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white py-2 px-2 w-full hover:bg-[#026cbd]">
+                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white py-2 px-2 w-full hover:bg-[#026cbd] h-16">
                                 Let's Explore Your Data
                             </button>
                         </div>
@@ -98,7 +98,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4 description">
                                 Actively using data for insights, you seek ways to further elevate its utility. Your focus is on optimizing and advancing your data strategies
                             </p>
-                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white text-base py-2 px-1 w-full hover:bg-[#026cbd]">
+                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white text-base py-2 px-1 w-full hover:bg-[#026cbd] h-16">
                                 Let's Optimize Your Data Strategy
                             </button>
                         </div>

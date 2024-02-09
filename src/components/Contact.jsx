@@ -72,10 +72,9 @@ const ContactSection = () => {
                                 <IoCall />
                             </div>
                             <div className="call">
-                                <b>US </b> <a href="tel:+13239999988">+1 (323)577 9779</a>
+                                <b>US </b> <a href="tel:+13239999988">+1 323-577-9779</a>
                             </div>
                         </p>
-
                         <p className="mb-8 flex flex-row items-center space-x-5">
                             <div className="text-2xl">
                                 <IoCall />
@@ -85,12 +84,12 @@ const ContactSection = () => {
                             </div>
                         </p>
                         <p className="mb-8 ">
-                            <a className='flex flex-row items-center space-x-5' href="https://wa.me/+91 96764-71078" target="_blank" rel="noopener noreferrer">
+                            <a className='flex flex-row items-center space-x-5' href="https://wa.me/+919676471078" target="_blank" rel="noopener noreferrer">
                                 <div className="logo text-3xl">
                                     <IoLogoWhatsapp />
                                 </div>
                                 <span>
-                                    <a href='https://wa.me/+13235779779'>Talk with us on whatsapp </a>
+                                    <a href='https://wa.me/+13235779779'>Reach out on WhatsApp </a>
                                 </span>
                             </a>
                         </p>
@@ -406,7 +405,7 @@ const ContactSection = () => {
                                 </label>
                                 <input
                                     type="text"
-                                    placeholder='Enter your organization name'
+                                    placeholder="Enter your organization's name"
                                     id="org"
                                     name="org"
                                     className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
