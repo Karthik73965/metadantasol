@@ -11,7 +11,7 @@ export const Help = () => {
       <center>
 
         <div className=''>
-          <div className='font-bold text-3xl text-[#0083e8] heading  md:text-5xl py-2'>
+          <div className='font-bold text-xl text-[#0083e8] heading  md:text-5xl py-2'>
             Who Can we Assist ?
           </div>
           <div className='text-sm sm:text-lg mt-3 description text-gray-500'>
