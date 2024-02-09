@@ -43,7 +43,7 @@ export default function About() {
             {/* About */}
             <div className="about shadow-2xl relative z-50 w-full md:w-11/12 mx-auto  items-center md:-mt-32   bg-white px-12 sm:px-24 py-7 space-y-10 md:space-y-0  flex flex-col md:flex-col ">
 
-                <div className="about ">
+                <div className="about flex justify-center align-middle ">
 
                     
                     <div className='w-full   md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-4xl md:px-4 leading-relaxed md:leading-loose heading  font-bold'>MetaDatAnSol - Your Trusted Partner for Achieving Data-Driven Success Across Industries and Verticals
@@ -52,9 +52,9 @@ export default function About() {
                 </div>
 
                 <div className="whoweare flex flex-col md:flex-row items-center">
-                <div className='w-full md:w-1/4  text-lg text-[#0083e8] sm:md:py-24 text-center md:text-left capitalize  md:text-4xl heading  font-bold'>Who We are ?</div>
+                <div className='w-full md:w-1/4  text-lg text-[#0083e8] sm:md:py-24 text-center md:text-left  md:text-4xl heading  font-bold'>Who we are ?</div>
                     <div className='md:w-3/4 text-center text-lg text-[#0083e8] sm:text-sm md:text-xl         description '>
-                        At MetaDatAnSol Solutions, we're seasoned experts with over a decade of experience, dedicated to fostering a data-centric evolution. Our commitment spans various industries, providing customized solutions for analytics, data science, and cutting-edge technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
+                        At MetaDatAnSol , we're seasoned experts with over a decade of experience, dedicated to fostering a data-centric evolution. Our commitment spans various industries, providing customized solutions for analytics, data science, and cutting-edge technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@ export default function About() {
                 component={
                     <div className="what-we-do text-center py-14 px-8 sm:px-20 bg-slate-200 text-black text-xl">
                         <div>
-                            <div className=' heading sm:text-5xl  text-center font-bold py-3 text-3xl  text-[#0083e8]'>WHAT WE DO ?</div>
+                            <div className=' heading sm:text-5xl  text-center font-bold py-3 text-3xl  text-[#0083e8]'>What we do ?</div>
                             <p className='xl:text-2xl text-gray-500 description   '>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting Custom Software Solutions tailored to address your complex business challenges.</p>
                         </div>
                     </div>
@@ -165,7 +165,7 @@ export default function About() {
                     component={
                         <>
                            <div className='font-'>
-                           At MetaDatAnSol Solutions, our service spectrum is designed to fuel your business's data-powered journey. From expert business intelligence and analytics services spanning diverse industries to predictive analysis aiding in strategic foresight, we're committed to delivering actionable insights. Our comprehensive approach navigates the complex landscape of data, offering services in data science, machine learning, AI, and tailored software solutions. Trust us as your forward-thinking partner, crafting solutions that streamline processes, ensuring a competitive edge in today's digital era.
+                           At MetaDatAnSol, our service spectrum is designed to fuel your business's data-powered journey. From expert business intelligence and analytics services spanning diverse industries to predictive analysis aiding in strategic foresight, we're committed to delivering actionable insights. Our comprehensive approach navigates the complex landscape of data, offering services in data science, machine learning, AI, and tailored software solutions. Trust us as your forward-thinking partner, crafting solutions that streamline processes, ensuring a competitive edge in today's digital era.
                            </div>
                         </>
                     }
@@ -180,7 +180,7 @@ export default function About() {
                     <div className="about -mt-20 -mb-20 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center  bg-white px-4 sm:px-8 md:px-14 py-4 sm:py-7 flex flex-col md:flex-row ">
 
                         <div className='md:w-2/6 py-4 text-3xl text-[#0083e8] sm:py-8 md:py-16 uppercase font-bold text-center  sm:text-3xl leading-normal heading'>A Tailored Client-Centric Strategy</div>
-                        <div className='md:w-4/6 md:border-l-2 text-[#0083e8] text-lg md:text-2xl md:px-4 px-0 leading-relaxed description '>At MetaDatAnSol Solutions, we lead clients towards data-centric excellence, navigating transformation journeys hand in hand. Our commitment lies in delivering insightful solutions and fostering technological advancement to elevate businesses. Upholding rigorous technical standards, we ensure timely project completion across data engineering, analytics, science, custom solutions, and multi-year digital transformations
+                        <div className='md:w-4/6 md:border-l-2 text-[#0083e8] text-lg md:text-2xl md:px-4 px-0 leading-relaxed description '>At MetaDatAnSol , we lead clients towards data-centric excellence, navigating transformation journeys hand in hand. Our commitment lies in delivering insightful solutions and fostering technological advancement to elevate businesses. Upholding rigorous technical standards, we ensure timely project completion across data engineering, analytics, science, custom solutions, and multi-year digital transformations
                             .</div>
                     </div>
                 }

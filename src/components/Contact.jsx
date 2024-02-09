@@ -72,7 +72,7 @@ const ContactSection = () => {
                                 <IoCall />
                             </div>
                             <div className="call">
-                                <b>US </b> <a href="tel:+13239999988">+1 (323)999-9988</a>
+                                <b>US </b> <a href="tel:+13239999988">+1 (323)577 9779</a>
                             </div>
                         </p>
 
@@ -81,16 +81,16 @@ const ContactSection = () => {
                                 <IoCall />
                             </div>
                             <div className="call">
-                                <b>IN </b> <a href="tel:+919988899888">+91 99888-99888</a>
+                                <b>IN </b> <a href="tel:+919988899888">+91 96764-71078</a>
                             </div>
                         </p>
                         <p className="mb-8 ">
-                            <a className='flex flex-row items-center space-x-5' href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer">
+                            <a className='flex flex-row items-center space-x-5' href="https://wa.me/+91 96764-71078" target="_blank" rel="noopener noreferrer">
                                 <div className="logo text-3xl">
                                     <IoLogoWhatsapp />
                                 </div>
                                 <span>
-                                    Add WhatsApp
+                                    <a href='https://wa.me/+13235779779'>Talk with us on whatsapp </a>
                                 </span>
                             </a>
                         </p>
@@ -132,7 +132,7 @@ const ContactSection = () => {
                             </div>
                             <div class=" items-center mb-4">
 
-                                <label htmlFor="name" className="block mb-2 text-[15px]">
+                                <label htmlFor="name" className="block mb-2 ">
                                     <span className="text-red-500  ">*</span>Select country code:
                                 </label>
                                 <div class="mr-2  inline-flex rounded-md border ml-2 border-gray-300 bg-white px-3 py-2 text-sm leading-5 font-medium text-gray-700 shadow-md cursor-pointer">
@@ -395,7 +395,7 @@ const ContactSection = () => {
                                     id="message"
                                     name="message"
                                     rows="4"
-                                    placeholder='Ask us anything'
+                                    placeholder='How can we help you?'
                                     className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
                                     required
                                 ></textarea>

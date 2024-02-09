@@ -30,7 +30,7 @@ export default function Service({ isOpen, onClose, service }) {
                                 <div>
                                     <h3 className="text-3xl font-bold text-[#002644] mb-4">What is Data Engineering?</h3>
                                     <p className="text-gray-700 text-xl">
-                                        Data Engineering is the process of collecting, cleaning, and transforming raw data into a structured format that is ready for analysis. Our expert team at MetaDatAnSol Solutions specializes in delivering top-tier Data Engineering services tailored to meet your organization's unique needs.
+                                        Data Engineering is the process of collecting, cleaning, and transforming raw data into a structured format that is ready for analysis. Our expert team at MetaDatAnSol  specializes in delivering top-tier Data Engineering services tailored to meet your organization's unique needs.
                                     </p>
                                     <p className="text-gray-700 text-xl mt-4">
                                         Our Data Engineers play a pivotal role in ensuring data quality, scalability, and accessibility within your organization. Whether you're initiating your data journey or seeking to fortify your existing infrastructure, we're here to help you leverage the power of your data.
@@ -54,7 +54,7 @@ export default function Service({ isOpen, onClose, service }) {
                             <div className="mt-8">
                                 <h2 className="text-4xl font-bold text-[#002644] mb-4">How We Can Help</h2>
                                 <p className="text-xl text-gray-700">
-                                    At MetaDatAnSol Solutions, we understand that organizations vary in their data maturity levels. Whether you're just starting your data journey or seeking to enhance your existing data infrastructure, our Data Engineers are equipped to assist.
+                                    At MetaDatAnSol , we understand that organizations vary in their data maturity levels. Whether you're just starting your data journey or seeking to enhance your existing data infrastructure, our Data Engineers are equipped to assist.
                                     Our experts will assess your organization's specific data needs, level of data maturity, and the challenges you face. We tailor Data Engineering solutions to align with your goals, providing data quality, accessibility, and scalability. We can help you transform your raw data into actionable insights, giving you a competitive edge in today's data-driven world.
                                     Partner with us to harness the true potential of your data through effective Data Engineering. Your data journey begins here.
 
@@ -81,13 +81,13 @@ export default function Service({ isOpen, onClose, service }) {
 
                             <div className="grid grid-cols-1 gap-8">
                                 <div>
-                                    <h3 className="text-3xl font-bold text-[#002644] mb-4">Uncovering Hidden Insights</h3>
+                                    <h3 className="text-3xl font-bold text-[#002644] mb-4">Uncovering Hidden Insights:</h3>
                                     <p className="text-xl text-gray-700">
                                         Data Analysis delves deep into your data, revealing insights and patterns that were previously undetected. It transforms raw data into actionable information, enabling you to make informed choices.
                                     </p>
                                 </div>
                                 <div>
-                                    <h3 className="text-3xl font-bold text-[#002644] mb-4">Industry-Leading Tools</h3>
+                                    <h3 className="text-3xl font-bold text-[#002644] mb-4">Industry-Leading Tools:</h3>
                                     <p className="text-xl text-gray-700">
                                         We harness industry-leading data visualization tools like Power BI, Tableau, Looker, or SAP Analytics. These tools are selected based on your organization's unique needs, ensuring you have the best resources at your disposal.
 
@@ -96,9 +96,9 @@ export default function Service({ isOpen, onClose, service }) {
                             </div>
 
                             <div className="mt-8">
-                                <h2 className="text-3xl font-bold text-[#002644] mb-4">How We Can Transform Your Data</h2>
+                                <h2 className="text-3xl font-bold text-[#002644] mb-4">How We Can Transform Your Data:</h2>
                                 <p className="text-xl text-gray-700">
-                                    MetaDatAnSol Solutions offers a team of experienced BI professionals who can elevate your organization into a data-driven powerhouse. We're here to redefine the way you perceive and utilize your data.
+                                    MetaDatAnSol offers a team of experienced BI professionals who can elevate your organization into a data-driven powerhouse. We're here to redefine the way you perceive and utilize your data.
                                     Our recommended tools offer interactive dashboards, data reports, visual analytics, and self-service analytics that empower your decision-making abilities. With us as your partner, you'll experience a transformation in how you approach data, unlocking its full potential to drive your organization's success. Welcome to the world of effective data analysis, where your data becomes your greatest asset.
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ export default function Service({ isOpen, onClose, service }) {
                                 </ul>
                             </div>
                             <div className="mb-8">
-                                <h2 className="text-3xl font-bold text-[#002644] mb-4">The Data Science Advantage</h2>
+                                <h2 className="text-3xl font-bold text-[#002644] mb-4">The Data Science Advantage:</h2>
                                 <p className="text-lg text-gray-700">
                                     In the modern landscape, data science stands as a bridge between raw data and insightful decision-making. It's a powerful process that employs sophisticated techniques to refine, evaluate, and model data, ultimately revealing valuable insights. With the integration of AI and ML, data science has become a driving force behind business optimization, innovation, and strategic transformation.
                                 </p>
@@ -162,7 +162,7 @@ export default function Service({ isOpen, onClose, service }) {
                                 </p>
                             </div>
                             <div className="mb-8">
-                                <h2 className="text-4xl font-bold text-gray-800 mb-4">How We Can Assist You</h2>
+                                <h2 className="text-4xl font-bold text-gray-800 mb-4">How We Can Assist You:</h2>
                                 <p className='text-lg text-gray-600 my-4'>
                                     At Metadatan Solutions, we also specialize in developing custom software solutions designed to meet your organization's unique complexities and challenges. Whether you require simple or bespoke applications or tailor-made software, our team is equipped to cater to your specific business needs.
                                 </p>
@@ -182,9 +182,9 @@ export default function Service({ isOpen, onClose, service }) {
                                 </ul>
                             </div>
                             <div>
-                                <h2 className="text-4xl font-bold text-gray-800 mb-4">Partner with Us</h2>
+                                <h2 className="text-4xl font-bold text-gray-800 mb-4">Partner with Us:</h2>
                                 <p className="text-lg text-gray-700">
-                                    With Metadata Solutions as your partner, innovation isn’t just a promise; it's a commitment delivered through meticulous craftsmanship, attention to detail, and a relentless pursuit of excellence. Let us propel your business toward unparalleled success by redefining the possibilities of custom software solutions tailored exclusively for your needs.
+                                    With MetaDatAn Sol as your partner, innovation isn’t just a promise; it's a commitment delivered through meticulous craftsmanship, attention to detail, and a relentless pursuit of excellence. Let us propel your business toward unparalleled success by redefining the possibilities of custom software solutions tailored exclusively for your needs.
                                 </p>
                             </div>
                         </div>
@@ -198,7 +198,7 @@ export default function Service({ isOpen, onClose, service }) {
                             <div className="text-center mb-12 mx-auto">
                                 <h2 className="text-4xl font-bold text-[#0083e8] mb-4">Complete Business Intelligence Solutions</h2>
                                 <p className="text-lg text-gray-600">
-                                    In today's data-focused world, having a strong Business Intelligence (BI) plan is crucial. At MetaDatAnSol Solutions, we offer a full suite of BI solutions that cover your entire data journey, from start to finish.
+                                    In today's data-focused world, having a strong Business Intelligence (BI) plan is crucial. At MetaDatAnSol , we offer a full suite of BI solutions that cover your entire data journey, from start to finish.
                                 </p>
                             </div>
                             <div className="mb-8">
@@ -215,7 +215,7 @@ export default function Service({ isOpen, onClose, service }) {
                                 </p>
                             </div>
                             <div className="mb-8">
-                                <h2 className="text-3xl font-bold text-[#002644] mb-4">Custom Apps</h2>
+                                <h2 className="text-3xl font-bold text-[#002644] mb-4">Custom Apps:</h2>
                                 <p className="text-lg text-gray-700">
                                     We also use data science and machine learning to help you foresee future trends and make smarter decisions.
 

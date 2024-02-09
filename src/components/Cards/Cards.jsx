@@ -24,7 +24,7 @@ export const Cards = () => {
         <div className=" mx-auto w-full">
           <h1 className="title text-3xl sm:text-6xl font-bold heading  w-full py-3 text-[#0083e8]">Our Solutions</h1>
 
-          <p className=' mt-3 text-sm sm:text-xl lg:text-xl  text-gray-500 mx-7 sm:mx-24 text-center description '>At MetaDatAnSol Solutions, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making.</p>
+          <p className=' mt-3 text-sm sm:text-xl lg:text-xl  text-gray-500 mx-7 sm:mx-24 text-center description '>At MetaDatAnSol, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making.</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 w-10/12 mx-auto gap-6 my-16 ">
 
