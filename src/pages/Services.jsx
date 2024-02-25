@@ -68,7 +68,7 @@ export default function Services() {
                     <div
                         className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
 
-                        <video autoPlay loop muted className='object-cover w-full h-[20rem]'>
+                        <video playsinline autoPlay loop muted className='object-cover w-full h-[20rem]'>
                             <source className='w-full' src={one} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -92,7 +92,7 @@ export default function Services() {
                     <div
                         className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8">
 
-                        <video autoPlay loop muted className='h-[20rem] object-cover w-full'>
+                        <video playsinline autoPlay loop muted className='h-[20rem] object-cover w-full'>
                             <source className='w-full' src={two} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -117,7 +117,7 @@ export default function Services() {
                     <div
                         className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
 
-                        <video autoPlay loop muted className='h-[20rem] object-cover w-full'>
+                        <video playsinline autoPlay loop muted className='h-[20rem] object-cover w-full'>
                             <source className='w-full' src={three} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -141,7 +141,7 @@ export default function Services() {
                     <div
                         className="service mx-2 py-8 flex flex-col lg:flex-col justify-between space-y-8">
 
-                        <video autoPlay loop muted className='h-[20rem] object-cover w-full'>
+                        <video playsinline autoPlay loop muted className='h-[20rem] object-cover w-full'>
                             <source className='w-full' src={four} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
