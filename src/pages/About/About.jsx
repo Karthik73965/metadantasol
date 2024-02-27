@@ -111,7 +111,7 @@ export default function About() {
                                 <div className={`"overflow-hidden text-lg flex flex-col ${contentOrder}   items-center"`}>
 
                                     <div className="h-80 relative w-full lg:w-1/2 overflow-hidden">
-                                        <video
+                                        <video playsInline 
                                             className="absolute hover:scale-125 transition-all duration-300 cursor-pointer top-0 left-0 z-0 w-full h-full object-cover"
                                             autoPlay
                                             loop

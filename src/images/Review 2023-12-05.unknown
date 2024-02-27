@@ -1203,7 +1203,7 @@ Content-Location: https://notes.services.box.com/p/note?fileId=1379952323877&sha
 
 		<ul>
 			<li id="carousel-video-item-template">
-				<video width="100%" height="100%" preload="none" loop="">
+				<video  playsInline mutexwidth="100%" height="100%" preload="none" loop="">
 					<source src="https://notes.services.box.com/p/note?fileId=1379952323877&amp;sharedLink=https%3A%2F%2Fapp.box.com%2Fs%2Fbgnjtfmykb173xqpp53vm1jmk61mqdpr&amp;hostname=app.box.com" type="video/mp4">
 					<source src="https://notes.services.box.com/p/note?fileId=1379952323877&amp;sharedLink=https%3A%2F%2Fapp.box.com%2Fs%2Fbgnjtfmykb173xqpp53vm1jmk61mqdpr&amp;hostname=app.box.com" type="video/webm">
 				</video>
