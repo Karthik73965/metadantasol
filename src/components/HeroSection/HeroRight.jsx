@@ -7,7 +7,7 @@ export const HeroRight = () => {
     <div className='Hero-right-main self-center sm:mt-12 md:mt-0'>
       <div>
         {/* <img src={img} width={'500px'} height={'500px'} /> */}
-        <video  playsInline mutexclassName='w-full h-full object-cover' src={videoBg} autoPlay muted loop></video>
+        <video  playsInline  className='w-full h-full object-cover' src={videoBg} autoPlay muted loop></video>
       </div>
 
     </div>

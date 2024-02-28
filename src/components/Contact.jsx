@@ -6,6 +6,7 @@ import FadeUp from './FadeUp';
 import emailjs from "emailjs-com";
 import toast from 'react-hot-toast';
 import { FaLinkedin, FaSpinner } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const ContactSection = () => {
 
@@ -84,7 +85,7 @@ const ContactSection = () => {
                             </div>
                         </p>
                         <p className="mb-8 ">
-                            <a className='flex flex-row items-center space-x-5' href="https://wa.me/+919676471078" target="_blank" rel="noopener noreferrer">
+                            <a className='flex flex-row items-center space-x-5' href="https://wa.me/+919676471078"  rel="noopener noreferrer">
                                 <div className="logo text-3xl">
                                     <IoLogoWhatsapp />
                                 </div>
@@ -93,6 +94,7 @@ const ContactSection = () => {
                                 </span>
                             </a>
                         </p>
+                            <Link to='mailto:support@metadatansol.com'  >
                         <p className="mb-8 ">
                             <div className="flex flex-row items-center space-x-3 sm:space-x-5">
                                 <p className=" text-3xl sm:text-3xl">
@@ -101,12 +103,15 @@ const ContactSection = () => {
                                 <p className='underline mb-2 cursor-pointer text-sm sm:text-base md:text-md lg:text-lg'>support@metadatansol.com</p>
                             </div>
                         </p>
+                            </Link>
+                            <Link to='https://www.linkedin.com/company/metadatansol/'  >
                         <div className="flex flex-row items-center space-x-3 sm:space-x-5">
                             <p className=" text-3xl sm:text-3xl">
                                 <FaLinkedin />
                             </p>
                             <p className=' font-bold cursor-pointer text-sm sm:text-base md:text-md lg:text-lg'>MetaDatAnSol</p>
                         </div>
+                        </Link>
                     </div>
 
                     {/* Right Part */}

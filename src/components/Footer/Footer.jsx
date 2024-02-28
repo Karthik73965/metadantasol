@@ -9,7 +9,7 @@ export default function Footer() {
     return (
 
 
-        <footer class="bg-[#0083e8] text-white dark:bg-gray-900">
+        <footer class="bg-[#0083e8] text-white ">
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
@@ -57,21 +57,21 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <span class="text-sm  sm:text-center ">© 2023 <a class="hover:underline">MetaDatAnSol</a>. All Rights Reserved.
                     </span>
                     <div class="flex mt-4 text-xl xl:text-2xl sm:justify-center sm:mt-0">
 
-                        <a href="#" class="  dark:hover:text-white ms-5">
+                        <a href="https://www.linkedin.com/company/metadatansol" class="  dark:hover:text-white ms-5">
                             <FaLinkedin />
                             <span class="sr-only">LinkedIn</span>
                         </a>
-                        <a href="#" class="  dark:hover:text-white ms-5">
+                        <a href="mailto:support@metadantasol.com" class="  dark:hover:text-white ms-5">
                             <SiGmail />
                             <span class="sr-only">Email</span>
                         </a>
-                        <a href="#" class="  dark:hover:text-white ms-5">
+                        <a href="https://wa.me/+13235779779" class="  dark:hover:text-white ms-5">
                             <FaWhatsapp />
                             <span class="sr-only">Whatsapp page</span>
                         </a>

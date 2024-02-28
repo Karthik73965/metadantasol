@@ -52,7 +52,7 @@ export const NavSmall = () => (
                 <Link onClick={() => close()} to={'/about'}> About </Link>
               </li>
               <li className='haha flex flex-row space-x-5 items-center'> <IoBookSharp className="" />
-                <Link onClick={() => close()} to={'/solutions'}> Services </Link>
+                <Link onClick={() => close()} to={'/solutions'}> Solutions </Link>
               </li>
               <li className='haha flex flex-row space-x-5 items-center'>  <MdInsights />
                 <Link onClick={() => close()} to={'/insights'}> Insights </Link>

@@ -9,7 +9,7 @@ export const Hero = () => {
     <div className='relative '>
 
       <div className="video-container absolute h-full w-full  -z-10">
-        <video  playsInline mutexclassName='w-full h-full absolute object-cover' src={videoBg} autoPlay muted loop></video>
+        <video  playsInline className='w-full h-full absolute object-cover' src={videoBg} autoPlay muted loop></video>
         <div className={`overlay absolute top-0 left-0 w-full h-full bg-[#0a3d68]
         from-black
           to-transparent opacity-60`}></div>

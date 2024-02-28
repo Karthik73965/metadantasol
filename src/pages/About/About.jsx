@@ -8,6 +8,7 @@ import one from '../../images/one.mp4'
 import two from '../../images/two.mp4'
 import three from '../../images/three.mp4'
 import four from '../../images/four.mp4'
+import { TbPointFilled } from "react-icons/tb";
 
 export default function About() {
     const cards = [
@@ -125,11 +126,12 @@ export default function About() {
                                     <div className="flex p-5 space-y-5 text-black justify-center flex-col sm:items-center w-full lg:w-1/2">
                                         <div className='text-center text-2xl sm:text-2xl xl:text-3xl md:border-b-2 text-[#0083e8] heading md:border-[#0083e8] md:w-full font-bold '>{card.title}</div>
 
-                                        <ul className='text-base xl:text-lg lg:list-disc md:text-left text-center -mr-12'>
+                                        <div className='text-base xl:text-lg lg:list-disc md:text-left text-center mr-5'>
                                             {card.bullets.map((b) => {
-                                                return <li className='description'>{b}</li>
+                                                return <div className='description flex align-middle'><TbPointFilled  className='m-1'/>
+                                                {b}</div>
                                             })}
-                                        </ul>
+                                        </div>
                                     </div>
                                 </div>
                             }
@@ -161,7 +163,7 @@ export default function About() {
                 backgroundAttachment: 'fixed',
                 backgroundRepeat: 'no-repeat'
             }} className="banner2  px-8 description sm:px-16 md:px-20 mt-5 bg-scroll pt-44 sm:pt-56 pb-24 sm:pb-36 text-lg xl:text-2xl text-white   ">
-                <FadeUp
+                {/* <FadeUp
                     component={
                         <>
                            <div className='font-'>
@@ -169,7 +171,7 @@ export default function About() {
                            </div>
                         </>
                     }
-                />
+                /> */}
             </div>
 
             {/* tailwored client */}

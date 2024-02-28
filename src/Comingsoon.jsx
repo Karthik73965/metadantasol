@@ -1,7 +1,8 @@
 import React from 'react'
-
+import Footer from './components/Footer/Footer'
 export default function Comingsoon() {
     return (
+       <>
         <div>
             <div class=" h-[92.8vh] overflow-y-hidden bg-[#005494] flex flex-col items-center justify-center">
                 <h1 class="text-5xl text-white font-bold mb-8 animate-pulse">
@@ -12,5 +13,7 @@ export default function Comingsoon() {
                 </p>
             </div>
         </div>
+        <Footer/>        
+        </>
     )
 }
