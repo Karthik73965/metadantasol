@@ -9,6 +9,7 @@ import two from '../../images/two.mp4'
 import three from '../../images/three.mp4'
 import four from '../../images/four.mp4'
 import { TbPointFilled } from "react-icons/tb";
+import { Link } from 'react-router-dom'
 
 export default function About() {
     const cards = [
@@ -94,7 +95,7 @@ export default function About() {
             />
 
             {/*  Cards */}
-            <div className="grid grid-cols-1 gap-4 sm:gap-0 md:grid-cols-2">
+            <div className="grid grid-cols-1 sm:gap-0 md:grid-cols-2">
 
                 {
                     cards.map((card, index) => {
@@ -102,38 +103,44 @@ export default function About() {
                         let contentOrder = '';
 
                         // Conditionally set contentOrder based on index
-                        if (index === 1 || index === cards.length - 2) {
-                            contentOrder = isEven ? 'lg:flex-row-reverse' : 'lg:flex-row';
-                        } else {
-                            contentOrder = isEven ? 'lg:flex-row' : 'lg:flex-row-reverse';
-                        }
+                       
                         return <FadeUp
                             component={
-                                <div className={`"overflow-hidden text-lg flex flex-col ${contentOrder}   items-center"`}>
-
-                                    <div className="h-80 relative w-full lg:w-1/2 overflow-hidden">
-                                        <video playsInline 
-                                            className="absolute hover:scale-125 transition-all duration-300 cursor-pointer top-0 left-0 z-0 w-full h-full object-cover"
-                                            autoPlay
-                                            loop
-                                            muted
-                                        >
-                                            <source src={card.video} type="video/mp4" />
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-
-                                    <div className="flex p-5 space-y-5 text-black justify-center flex-col sm:items-center w-full lg:w-1/2">
-                                        <div className='text-center text-2xl sm:text-2xl xl:text-3xl md:border-b-2 text-[#0083e8] heading md:border-[#0083e8] md:w-full font-bold '>{card.title}</div>
-
-                                        <div className='text-base xl:text-lg lg:list-disc md:text-left text-center mr-5'>
-                                            {card.bullets.map((b) => {
-                                                return <div className='description flex align-middle'><TbPointFilled  className='m-1'/>
-                                                {b}</div>
-                                            })}
-                                        </div>
-                                    </div>
-                                </div>
+                                <div className="group pb-7 w-full h-[550px] mx-auto rounded-sm bg-slate-200 text-[#57647c] flex flex-col space-y-4 items-center border-none cursor-pointer transition-all duration-500">
+                                <Link to={'/services'}>
+                              <div className=''>
+                              <div className="img relative overflow-hidden w-full h-72 mb-6 ">
+                                {/* <video
+                                  className="absolute top-0 left-0 z-0 w-full h-full object-cover"
+                                  autoPlay
+                                  loop
+                                  muted
+                                  >
+                                  <source src={one} type="video/mp4" />
+                                  Your browser does not support the video tag.
+                                </video> */}
+                                <video  playsInline className='w-full h-full absolute object-cover' src={card.video} autoPlay muted loop></video>
+                              </div>
+                              
+                              
+                              <Link to={'/services'} className="name pt-3 mt-3  text-black uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                                <Link  to={'/services'} className=' flex underline text-[#0083e8] align-middle justify-center heading '>{card.title}</Link>
+                              </Link>
+                                
+                                
+                              <div className="content font-normal text-center mt-4  text-base lg:text-xl  mx-3">
+                                <ul >
+                                 {
+                                    card.bullets.map((m)=>{
+                                      return <li>{m}</li>
+                                    })
+                                 }
+                                </ul>
+                                 </div>
+                                 </div>
+                            </Link> 
+                             
+                            </div>
                             }
                         />
                     })

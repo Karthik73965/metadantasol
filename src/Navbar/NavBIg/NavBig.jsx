@@ -29,10 +29,10 @@ export const NavBig = () => {
 
       <ul className='flex flex-row justify-end text-lg [&>*]:space-x-2 [&>*]:flex [&>*]:flex-row [&>*]:items-center space-x-16'>
         <li className={`${activeLink === 'solutions' ? 'underline text-[#0083e8]' : ''}`}>
-          <Link to={'/solutions'} className='hover:text-[#0083e8] flex space-x-2 align-middle justify-center cursor-pointer' onClick={() => handleLinkClick('solutions')}>
+          <Link to={'/services'} className='hover:text-[#0083e8] flex space-x-2 align-middle justify-center cursor-pointer' onClick={() => handleLinkClick('solutions')}>
             <BsFillCartFill className="m-1" />
             <span>
-              Solutions
+            Services
             </span>
           </Link>
         </li>

@@ -29,7 +29,7 @@ export const Cards = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 w-10/12 mx-auto gap-6 my-16 ">
 
             <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
-                <Link to={'/solutions'}>
+                <Link to={'/services'}>
               <div className=''>
               <div className="img relative overflow-hidden w-full h-72 mb-6 ">
                 {/* <video
@@ -45,8 +45,8 @@ export const Cards = () => {
               </div>
               
               
-              <Link to={'/solutions'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
-                <Link  to={'/solutions'} className=' flex align-middle justify-center heading '>Business Intelligence Solutions</Link>
+              <Link to={'/services'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                <Link  to={'/services'} className=' flex align-middle justify-center heading '>Business Intelligence Solutions</Link>
               </Link>
                 
                 
@@ -69,7 +69,7 @@ export const Cards = () => {
 
             <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
 
-               <Link to={'/solutions'}>
+               <Link to={'/services'}>
              <div>
              <div className="img relative overflow-hidden w-full h-72 mb-6 ">
                 {/* <video
@@ -85,8 +85,8 @@ export const Cards = () => {
               </div>
              
                
-              <Link to={'/solutions'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
-                <Link  to={'/solutions'} className=' flex align-middle justify-center heading'>Data Visualization Services </Link>
+              <Link to={'/services'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                <Link  to={'/services'} className=' flex align-middle justify-center heading'>Data Visualization Services </Link>
               </Link>
               <div className="content font-normal text-center mt-4 group-hover:text-white text-base lg:text-xl mx-3">
                 <ul>
@@ -109,7 +109,7 @@ export const Cards = () => {
             </div>
 
             <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
-              <Link to ={'/solutions'}>
+              <Link to ={'/services'}>
                 <div>
               <div className="img relative overflow-hidden w-full h-72 mb-6  ">
                 {/* <video
@@ -124,8 +124,8 @@ export const Cards = () => {
                 <img src={Data} />
               </div>
               
-              <Link to={'/solutions'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
-                <Link  to={'/solutions'} className=' flex align-middle justify-center heading '>Data science </Link>
+              <Link to={'/services'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                <Link  to={'/services'} className=' flex align-middle justify-center heading '>Data science </Link>
               </Link>
             
               <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl mt-6 mx-3">
@@ -150,7 +150,7 @@ export const Cards = () => {
 
            
               <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
-                  <Link to ={'/solutions'}>
+                  <Link to ={'/services'}>
                     <div>
                 <div className="img relative overflow-hidden w-full h-72 mb-6 ">
                   {/* <video
@@ -165,8 +165,8 @@ export const Cards = () => {
                   <img src={Customservice}/>
                 </div>
                 
-                <Link to={'/solutions'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
-                <Link  to={'/solutions'} className=' flex align-middle justify-center heading '>Custom Software Development </Link>
+                <Link to={'/services'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                <Link  to={'/services'} className=' flex align-middle justify-center heading '>Custom Software Development </Link>
               </Link>
              
                 <div className="content font-normal text-center group-hover:text-white mt-6 text-base lg:text-xl mx-3">

@@ -26,7 +26,7 @@ export default function Footer() {
                                     <Link to={'/'} class="hover:underline">Home</Link>
                                 </li>
                                 <li>
-                                    <Link to={'/solutions'} class="hover:underline">Solutions</Link>
+                                    <Link to={'/services'} class="hover:underline">Services</Link>
                                 </li>
                                 <li>
                                     <Link to={'/about'} class="hover:underline">About</Link>

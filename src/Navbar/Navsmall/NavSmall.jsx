@@ -48,11 +48,11 @@ export const NavSmall = () => (
               <li className='haha flex flex-row space-x-5 items-center' ><MdMiscellaneousServices size="30" className='service' />
                 <Link onClick={() => close()} to={'/'}> Home </Link>
               </li>
+              <li className='haha flex flex-row space-x-5 items-center'> <IoBookSharp className="" />
+                <Link onClick={() => close()} to={'/services'}> Services </Link>
+              </li>
               <li className='haha flex flex-row space-x-5 items-center'> <BsFillCartFill size="30" className="product" />
                 <Link onClick={() => close()} to={'/about'}> About </Link>
-              </li>
-              <li className='haha flex flex-row space-x-5 items-center'> <IoBookSharp className="" />
-                <Link onClick={() => close()} to={'/solutions'}> Solutions </Link>
               </li>
               <li className='haha flex flex-row space-x-5 items-center'>  <MdInsights />
                 <Link onClick={() => close()} to={'/insights'}> Insights </Link>

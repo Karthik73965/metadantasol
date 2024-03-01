@@ -27,7 +27,7 @@ function App() {
         case '/about':
           document.title = 'Data Analytics company | About';
           break;
-        case '/solutions':
+        case '/services':
           document.title = 'Data Analytics company | Solutions';
           break;
         case '/contact':
@@ -62,7 +62,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/solutions' element={<Services />} />
+        <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contactus />} />
         {/* <Route path='/privacy' element={<Privacy />} /> */}
         <Route path='/insights' element={<Comingsoon />} />
