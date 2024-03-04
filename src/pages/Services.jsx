@@ -35,22 +35,6 @@ export default function Services() {
                 </div>
             </div>
 
-            {/* Fixed BG */}
-            {/* <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0,131,232, 0.4), rgba(0,131,232, 0.9)), url(${img})`,
-                backgroundPosition: "center",
-                backgroundSize: 'cover',
-                backgroundAttachment: 'fixed',
-                backgroundRepeat: 'no-repeat'
-            }} className="banner2 px-5 sm:px-16 md:px-20 -mt-32 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl xl:text-2xl text-gray-100">
-                <FadeUp
-                    component={
-                        <>
-                            Our clients benefit from our expertise in the domain of data and analytics. Analyzing loads of data is critical and we help our clients for better understanding the past events and predict the prospects entirely based on accurate data analysis. Our experienced professionals cater to the ever-growing data analytics needs of our clients, right from the planning stages to the transformation and execution stages. Also, we propose an optimal course of action so that the transformation process does not seem to be too overwhelming for our clients.
-                        </>
-                    }
-                />
-            </div> */}
 
             <div className="text w-11/12 sm:w-11/12 mx-auto text-lg sm:text-2xl my-20 leading-normal sm:leading-loose text-center description font-bold text-gray-500 description  ">
                 Our services in Business Intelligence, Data Visualization, Data Science, and Custom Software Development are designed to align with your organization's data maturity. We begin with a thorough assessment to understand your business and address specific requests, ensuring a personalized and effective solution.

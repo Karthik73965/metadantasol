@@ -2,6 +2,8 @@ import React from 'react'
 import banner from '../../images/banner5.jpg'
 import banner2 from '../../images/bg6.jpg'
 import FadeUp from '../../components/FadeUp'
+
+import img2 from  '../../images/banner6.jpg'
 import './About.css'
 import Reveal from '../../components/Reveal'
 import one from '../../images/one.mp4'
@@ -53,7 +55,7 @@ export default function About() {
 
                 </div>
 
-                <div className="whoweare flex flex-col md:flex-row items-center">
+                <div className="whoweare flex flex-col md:flex-row items-center ">
                 <div className='w-full md:w-1/4  text-lg text-[#0083e8] sm:md:py-24 text-center md:text-left  md:text-4xl heading  font-bold'>Who we are ?</div>
                     <div className='md:w-3/4 text-center text-lg text-[#0083e8] sm:text-sm md:text-xl         description '>
                         At MetaDatAnSol , we're seasoned experts with over a decade of experience, dedicated to fostering a data-centric evolution. Our commitment spans various industries, providing customized solutions for analytics, data science, and cutting-edge technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
@@ -83,69 +85,148 @@ export default function About() {
                 />
             </div>
             {/* What we do */}
-            <FadeUp
-                component={
-                    <div className="what-we-do text-center py-14 px-8 sm:px-20 bg-slate-200 text-black text-xl">
-                        <div>
-                            <div className=' heading sm:text-5xl  text-center font-bold py-3 text-3xl  text-[#0083e8]'>What we do ?</div>
-                            <p className='xl:text-2xl text-gray-500 description   '>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting Custom Software Solutions tailored to address your complex business challenges.</p>
+           
+                        <div className='px-8 bg-transparent' style={{
+                            backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${banner2})`,
+                            backgroundPosition: "center",
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed',
+                            backgroundRepeat: 'no-repeat'
+                        }}>
+                            <div className=' heading p sm:text-5xl bg-transparent  text-center font-bold 3 text-3xl  text-white'>What we do ?</div>
+                            <p className='xl:text-2xl px-8 text-white description   '>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting Custom Software Solutions tailored to address your complex business challenges.</p>
+                        </div>
+                
+              
+
+            {/*  Cards */}
+            <div style={{
+                backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${img2})`,
+                backgroundPosition: "center",
+                backgroundSize: 'cover',
+                backgroundAttachment: 'fixed',
+                backgroundRepeat: 'no-repeat'
+            }} className="px-16 grid grid-cols-1 lg:grid-cols-2 gap-1 bg-[#0d71bd] text-gray-200 py-12">
+                <FadeUp component={
+                    <div
+                        className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
+
+                        <video  playsInline    autoPlay loop muted className='object-cover w-full h-[20rem]'>
+                            <source className='w-full' src={one} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
+
+                            {/* <div className='w-full text-[#0083e8] text-start text-2xl font-extrabold'>01.</div> */}
+                            <center className=" heading w-full text- text-2xl md:text-4xl font-bold">Business Intelligence</center>
+                            <center className=" w-full  text-sm md:text-lg description text-gray-200">
+                             <ul>
+                                <li>Legacy Data and Report Migration</li>
+                                <li>Enterprise Data Warehouse</li>
+                                <li>Integration with Existing Systems</li>
+                                <li>Mobile BI</li>
+                                <li>"Reports, Dashboards, Metrics</li>
+                                <li>OLAP Cubes</li>
+                             </ul>
+                            </center>
                         </div>
                     </div>
                 }
-            />
+                >
 
-            {/*  Cards */}
-            <div className="grid grid-cols-1 sm:gap-0 md:grid-cols-2">
+                </FadeUp>
 
-                {
-                    cards.map((card, index) => {
-                        const isEven = index % 2 === 0;
-                        let contentOrder = '';
+                <FadeUp component={
+                    <div
+                        className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8">
 
-                        // Conditionally set contentOrder based on index
-                       
-                        return <FadeUp
-                            component={
-                                <div className="group pb-7 w-full h-[550px] mx-auto rounded-sm bg-slate-200 text-[#57647c] flex flex-col space-y-4 items-center border-none cursor-pointer transition-all duration-500">
-                                <Link to={'/services'}>
-                              <div className=''>
-                              <div className="img relative overflow-hidden w-full h-72 mb-6 ">
-                                {/* <video
-                                  className="absolute top-0 left-0 z-0 w-full h-full object-cover"
-                                  autoPlay
-                                  loop
-                                  muted
-                                  >
-                                  <source src={one} type="video/mp4" />
-                                  Your browser does not support the video tag.
-                                </video> */}
-                                <video  playsInline className='w-full h-full absolute object-cover' src={card.video} autoPlay muted loop></video>
-                              </div>
-                              
-                              
-                              <Link to={'/services'} className="name pt-3 mt-3  text-black uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
-                                <Link  to={'/services'} className=' flex underline text-[#0083e8] align-middle justify-center heading '>{card.title}</Link>
-                              </Link>
-                                
-                                
-                              <div className="content font-normal text-center mt-4  text-base lg:text-xl  mx-3">
-                                <ul >
-                                 {
-                                    card.bullets.map((m)=>{
-                                      return <li>{m}</li>
-                                    })
-                                 }
-                                </ul>
-                                 </div>
-                                 </div>
-                            </Link> 
-                             
-                            </div>
-                            }
-                        />
-                    })
+                        <video  playsInline   autoPlay loop muted className='h-[20rem] object-cover w-full'>
+                            <source className='w-full' src={two} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
+
+                            {/* <div className='w-full text-[#0083e8] text-start text-2xl font-extrabold'>02.</div> */}
+                            <center className=" w-full  text-2xl md:text-3xl font-bold heading ">Data Visualization</center>
+                            <center className=" w-full  text-sm md:text-lg description text-gray-200">
+                             <ul>
+                                <li>Report and Dashboard Development</li>
+                                <li>Advanced Data Discovery</li>
+                                <li>Ad-hoc Reporting with Mobile BI</li>
+                                <li>Migration to New Reporting Tools</li>
+                                <li>Cloud/On-Premise Deployment</li>
+                                <li>Geospatial Visualization</li>
+                             </ul>
+                            </center>
+                        </div>
+                    </div>
+
                 }
+                />
 
+                
+
+                <FadeUp component={
+                    <div
+                        className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
+
+                        <video  playsInline   autoPlay loop muted className='h-[20rem] object-cover w-full'>
+                            <source className='w-full' src={three} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
+
+                            {/* <div className='w-full text-[#0083e8] text-start text-2xl font-extrabold'>03.</div> */}
+                            <center className=" w-full  text-2xl md:text-3xl font-bold heading ">Data Science</center>
+                            <center className=" w-full  text-sm md:text-lg description text-gray-200">
+                             <ul>
+                                <li>Advanced Analytics</li>
+                                <li>Machine Learning and AI</li>
+                                <li>Pilot Project Design</li>
+                                <li>Enhanced Customer Engagement</li>
+                                <li>Supply Chain Analytics</li>
+                                <li>Innovative Product Development</li>
+                             </ul>
+                            </center>
+                        </div>
+                    </div>
+                }>
+
+
+                </FadeUp>
+
+                <FadeUp component={
+                    <div
+                        className="service mx-2 py-8 flex flex-col lg:flex-col justify-between space-y-8">
+
+                        <video  playsInline   autoPlay loop muted className='h-[20rem] object-cover w-full'>
+                            <source className='w-full' src={four} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
+
+                            {/* <div className='w-full text-[#0083e8] text-start text-2xl font-extrabold'>04.</div> */}
+                            <center className=" w-full  text-2xl md:text-3xl font-bold heading ">Custom Software Development'</center>
+                            <center className=" w-full  text-sm md:text-lg description text-gray-200">
+                             <ul>
+                                <li>Process Automation</li>
+                                <li>Fraud Detection</li>
+                                <li>Personalized Data Analytics Tools</li>
+                                <li>Custom CRM Systems</li>
+                                <li>"Reports, Dashboards, Metrics</li>
+                                <li>Seamless Integration</li>
+                             </ul>
+                            </center>
+                   
+                        </div>
+                    </div>
+                }>
+
+                </FadeUp>
 
             </div>
 
@@ -169,8 +250,8 @@ export default function About() {
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
                 backgroundRepeat: 'no-repeat'
-            }} className="banner2  px-8 description sm:px-16 md:px-20 mt-5 bg-scroll pt-44 sm:pt-56 pb-24 sm:pb-36 text-lg xl:text-2xl text-white   ">
-                {/* <FadeUp
+            }} className=" text-transparent   ">
+                <FadeUp
                     component={
                         <>
                            <div className='font-'>
@@ -178,13 +259,13 @@ export default function About() {
                            </div>
                         </>
                     }
-                /> */}
+                />
             </div>
 
             {/* tailwored client */}
 
 
-            <FadeUp
+             <FadeUp
                 component={
                     <div className="about -mt-20 -mb-20 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center  bg-white px-4 sm:px-8 md:px-14 py-4 sm:py-7 flex flex-col md:flex-row ">
 
@@ -194,6 +275,7 @@ export default function About() {
                     </div>
                 }
             />
+      
 
             {/* More paragraphs */}
             <FadeUp
