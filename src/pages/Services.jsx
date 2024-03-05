@@ -47,7 +47,7 @@ export default function Services() {
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
                 backgroundRepeat: 'no-repeat'
-            }} className="px-28 grid grid-cols-1 lg:grid-cols-2 gap-1 bg-[#0d71bd] text-gray-200 py-12">
+            }} className=" sm:px-28 px-16 grid grid-cols-1 lg:grid-cols-2 gap-1 bg-[#0d71bd] text-gray-200 py-12">
                 <FadeUp component={
                     <div
                         className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">

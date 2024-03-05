@@ -30,10 +30,10 @@ export default function YouBusiness() {
                     Data Maturity : Where Does Your Business Stand?
                 </h2>
 
-                <div className="flex text-xl lg:space-y-0 mx-1 flex-col lg:flex-row lg:space-x-2">
+                <div className="flex text-xl lg:space-y-0 mx-1 flex-col lg:flex-row lg:space-x-2 px-9 sm:px-0">
 
 
-                    <div className="Bcard flex flex-col lg:w-1/4 mb-4 lg:mb-0">
+                    <div className="Bcard  flex flex-col lg:w-1/4 mb-4 lg:mb-0">
 
                         <div className="bg-white rounded-md shadow-lg p-4 space-y-6">
                             <h3 className="text-2xl font-semibold mb-4 heading">Discovering Data</h3>
