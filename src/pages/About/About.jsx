@@ -86,7 +86,7 @@ export default function About() {
             </div>
             {/* What we do */}
            
-                        <div className='px-8 bg-transparent' style={{
+                        <div className='px-8 ' style={{
                             backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${banner2})`,
                             backgroundPosition: "center",
                             backgroundSize: 'cover',
@@ -94,19 +94,19 @@ export default function About() {
                             backgroundRepeat: 'no-repeat'
                         }}>
                             <div className=' heading p sm:text-5xl bg-transparent  text-center font-bold 3 text-3xl  text-white'>What we do ?</div>
-                            <p className='xl:text-2xl px-8 text-white description   '>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting Custom Software Solutions tailored to address your complex business challenges.</p>
+                            <cent className='xl:text-2xl px-8 text-white description   '>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting Custom Software Solutions tailored to address your complex business challenges.</cent>
                         </div>
                 
               
 
             {/*  Cards */}
-            <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${img2})`,
-                backgroundPosition: "center",
-                backgroundSize: 'cover',
-                backgroundAttachment: 'fixed',
-                backgroundRepeat: 'no-repeat'
-            }} className=" sm:px-28 px-16 grid grid-cols-1 lg:grid-cols-2 gap-1 bg-[#0d71bd] text-gray-200 py-12">
+            <div  style={{
+                            backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${banner2})`,
+                            backgroundPosition: "center",
+                            backgroundSize: 'cover',
+                            backgroundAttachment: 'fixed',
+                            backgroundRepeat: 'no-repeat'
+                        }} className=" sm:px-28 px-16 grid grid-cols-1 lg:grid-cols-2 gap-1 bg-[#0d71bd] text-gray-200 py-12">
                 <FadeUp component={
                     <div
                         className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
