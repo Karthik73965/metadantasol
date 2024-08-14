@@ -66,14 +66,13 @@ export default function About() {
 
 
             {/* Fixed BG */}
-            {/* <div style={{ color: 'rgba(0,131,232, 0.4)' }} className='bg-[rgba(0,131,232, 0.4)]'></div> */}
             <div style={{
                 backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${banner2})`,
                 backgroundPosition: "center",
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
                 backgroundRepeat: 'no-repeat'
-            }} className="banner2 px-5 sm:px-16 md:px-20 -mt-32 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl xl:text-2xl text-gray-100 fomt-bold  ">
+            }} className=" px-5 sm:px-16 md:px-20 -mt-32 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl xl:text-2xl text-gray-100 fomt-bold  ">
                 <FadeUp
                     component={
                         <>

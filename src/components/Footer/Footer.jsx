@@ -67,7 +67,7 @@ export default function Footer() {
                             <FaLinkedin />
                             <span class="sr-only">LinkedIn</span>
                         </a>
-                        <a href="mailto:support@metadantasol.com" class="  dark:hover:text-white ms-5">
+                        <a href="mailto:support@metadatan.com" class="  dark:hover:text-white ms-5">
                             <SiGmail />
                             <span class="sr-only">Email</span>
                         </a>

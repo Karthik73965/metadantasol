@@ -7,7 +7,7 @@ export const Disclaimer = () => {
         <div className="bg-gray-100 text-lg w-11/12 mx-auto my-16 space-y-8">
             <div className="text-6xl font-bold">Disclaimer for MetaDatAnsol</div>
             <p>
-                Should you need further information or have any queries about our website's disclaimer, please don't hesitate to contact us via email at support@metadatansol.com.
+                Should you need further information or have any queries about our website's disclaimer, please don't hesitate to contact us via email at support@metadatan.com.
             </p>
 
             <div className="text-4xl font-bold">Disclaimer Statements for MetaDatAnSol</div>

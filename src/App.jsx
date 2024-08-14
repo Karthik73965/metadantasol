@@ -50,9 +50,7 @@ function App() {
       }
     };
 
-    setDocumentTitle();
-    // Optionally, clear the console on route change
-    console.clear();
+  
   }, [location]);
 
   return (
@@ -82,6 +80,6 @@ function App() {
       }
     </div>
   );
-}
+} 
 
 export default App;
