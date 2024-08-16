@@ -86,12 +86,12 @@ const ContactSection = () => {
                             </div>
                         </p>
                         <p className="mb-8 ">
-                            <a className='flex flex-row items-center space-x-5' href="https://wa.me/++919618089966 " rel="noopener noreferrer">
+                            <a className='flex flex-row items-center space-x-5' href="https://wa.me/+919618089966 " rel="noopener noreferrer">
                                 <div className="logo text-3xl">
                                     <IoLogoWhatsapp />
                                 </div>
                                 <span>
-                                    <a href='https://wa.me/+13235779779'>Reach out on WhatsApp </a>
+                                    <a href='https://wa.me/+919618089966'>Reach out on WhatsApp </a>
                                 </span>
                             </a>
                         </p>
@@ -137,7 +137,7 @@ const ContactSection = () => {
                             </div>
                             <div class=" items-center mb-4">
 
-                                <label htmlFor='country_code'  className="block mb-2 ">
+                                <label htmlFor='country_code' className="block mb-2 ">
                                     <span className="text-red-500  ">*</span>Select country code:
                                 </label>
                                 <div class="mr-2  inline-flex rounded-md border ml-2 border-gray-300 bg-white px-3 py-2 text-sm leading-5 font-medium text-gray-700 shadow-md cursor-pointer">
@@ -362,7 +362,7 @@ const ContactSection = () => {
 
                                     </select>
                                 </div>
-                                <label htmlFor='phone'  class="block mb-2">
+                                <label htmlFor='phone' class="block mb-2">
                                     <span class="text-red-500 ">*</span>Phone:
                                 </label>
                                 <input
